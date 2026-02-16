@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #0a0a0a;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: orange;
+    border-radius: 20px;
+    cursor: pointer;
+    transition-property: all;
+    /*
+    transition-property: background-color;
+    transition-property: height;
+    transition-property: width; 
+    */
+    transition-duration: 0.45s;
+    /* transition-timing-function: ease-in; */
+    /* transition-delay: 1s; */
+    
+    
+}
+
+.box:hover{
+    background-color: rgb(236, 212, 169);
+    height: 155px;
+    width: 155px;
+    box-shadow: orangered 0px 0px 20px;
+}

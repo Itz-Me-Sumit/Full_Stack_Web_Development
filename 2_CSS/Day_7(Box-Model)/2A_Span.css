@@ -1,0 +1,48 @@
+span{
+    color: red;
+
+}
+
+/* Universal selector */
+/*  
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+*/
+
+h1{
+    /* display: inline; */
+    background-color: aqua;
+    height: 300px;
+    width: 300px;
+
+    border: red 30px solid;
+
+    padding: 30px;
+    margin: 20px;
+
+    box-sizing: content-box;
+
+    /* content-box = content size */
+}
+
+h2{
+
+    background-color: pink;
+
+    height: 300px;
+    width: 300px;
+
+    border: solid orange 20px;
+
+    padding: 30px;
+    margin: 20px;
+
+    box-sizing: border-box;
+    
+    /* border-sizing = content size + border + padding + margin */
+
+}

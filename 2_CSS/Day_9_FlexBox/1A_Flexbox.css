@@ -1,0 +1,52 @@
+.container{
+    background-color: antiquewhite;
+    height: 600px;
+    
+    display: flex;
+
+    flex-direction: row;
+    /* Flex-Direction set main axis (here it is row)
+        so here if main axis is row then cross axis will be column.
+    */
+ 
+    justify-content: center;
+    /* justify-content works only on main axis( main or cross axis set by flex-direction) */
+
+    align-items: center;
+    /* align-items works only on cross axis(main or cross axis set by flex direction) */
+
+    flex-wrap: wrap;
+
+    gap:5px;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
+
+.first{
+    background-color: orange;
+    /*flex-basis: 300px; */
+        /*increase make stretch 300px in main-axis*/
+
+
+    /* flex-grow: 1; */
+}
+
+.second{
+    background-color: green;
+    /* flex-basis: 200px; */
+    /* flex-grow: 2; */
+}
+
+.third{
+    background-color: red;
+    /* flex-grow: 3; */
+    /* align-self: start; */
+}
+
+.fourth{
+    background-color: chartreuse;
+}

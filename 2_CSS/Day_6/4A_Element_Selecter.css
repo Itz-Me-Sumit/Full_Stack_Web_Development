@@ -1,0 +1,53 @@
+/* 
+    Element Selector
+*/
+
+
+    /*
+        1)'#' Based Selection or 'id' Based Selection.
+    */
+
+        #first{
+            background-color: beige;
+        }
+    
+    /* 
+        2)'class' Based Selection.
+    */
+
+        .whatever{
+            background-color: green;
+        }
+
+    /* 
+        3)'Group' Based Selection.
+    */
+
+        h1 , #hehe , .sumit{
+            background-color: aqua;
+        }
+
+        h1{
+            background-color: rgb(203,120,111);
+        }
+
+        h1{
+            background-color: rgba(203,120,111,0.30);
+
+            /* a => transpency */
+        }
+
+        h1{
+            background-color: hsl(hue, saturation, lightness)
+        }
+        h1{
+            background-color: hsl(110, 50%, 30%);
+        }
+
+    /*    
+        4)Font      
+    */
+
+        h1{
+            font-size:80px;
+        }

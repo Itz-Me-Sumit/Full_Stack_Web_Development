@@ -1,0 +1,33 @@
+h1{
+    background-color: orange;
+    
+    width: 380px;
+    
+    
+     border-width: 2.5px;
+    border-style: solid;
+    border-color: green;
+    
+    /* Both Are Same */
+    
+    border:2px solid green;
+    padding: 5px;
+    margin:10px;
+}
+
+h2{
+    background-color: pink;
+    width:330px;
+
+    border:5px solid rgb(24, 24, 24);
+
+    padding:5px;
+    margin:10px;
+
+    padding:10px 40px 50px 70px;
+    /* padding:Top Right Bottom Left (Should be in order)*/
+
+    padding: 40px 70px;
+    /* padding:(Top & Bottom) (Left & Right) */
+    border-radius:20px
+}

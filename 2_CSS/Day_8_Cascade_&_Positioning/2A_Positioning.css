@@ -1,0 +1,43 @@
+/* 
+        Position
+
+    1. static (default)
+    2. relative
+    3. fixed
+    4. sticky
+    5. absolute
+
+*/
+
+/*  1) Relative  */
+
+        /*  left:20; -> move 20px from left */
+        /* right:30; -> move 30px from right */
+        /* top:30; -> move 30px from top */
+        /* bottom:40; -> move 40px from bottom */
+
+h2{
+    background-color: orange;
+    position:relative;
+    left:100px;
+}
+
+h3{
+    background-color: pink;
+    position: fixed; 
+    top: 0px;
+    left: 50px;
+}
+
+h4{
+    background-color: brown;
+    position:sticky;
+    top:0px;
+}
+
+p{
+    background-color: rgb(29, 194, 139);
+    position: absolute;
+    left: 30px;
+    top:40px;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+
+<!-- 
+    
+    1) "type" :- ham agar koi input banate hai to hame type batana parta hai ki esme kis type ki chize fill ki jayegi example-> text,number,password,
+        
+        ya phir wo jo input radio type ka hai ya checkbox type ka hai ans etc.
+
+    2) "name" :- hamne ek lable banaya aur maan lo usme username fil kiya ja rha hai to agar hame database me usi username ke andar us naam ko dalna hai to usko identify karne ke liye "name" attribute ka use karte hai.
+
+    3) "id & for" :- aab hamare paas checkbox ya radio jaisa koi input hai..to hame ek certain gole pe ya box pe click karna hota uski tick karne ke liye...par ham chahte hai ki ham male pe click kare ya c++ pe click kare to sidha tick ho jaye 
+
+        to kahi na kahi ham "lable" ko <input> ke connect karna chah rhe hai..
+        to lable me ham "for" attribute ka use karke lable ko ek id assign kardenge and usi id ka use input me kar lenge....
+
+    4) "value" :- jab hamare paas 'text' , 'age' , 'password' jaise
+        attribute the to ham to ek 'value' return karte hai jo ham fill karte the (jaise name="sumit" , age=20 isme 'sumit' , 'age' values hai , jo database ko ek value assign hoti thi)
+        
+            par aab jab hamare pass..."radio" , "checkbox" kaise attributes hai to ham database se connect karane ke liye esko ek 'name' to assign kara denge par ye repeat me 'value' kya denge database ko
+
+            esiliye ham en jaise attributes me agale se value return karte hai. 
+-->
+
+
+<form>
+
+    <label for="username">Name:</label>
+    <input type="text" id="username" name="username">
+    <br><br>
+
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="userage">
+    <br><br>
+
+    <label for="father">Father's Name:</label>
+    <input type="text" id="father" name="userfathername">
+    <br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="userpassword">
+    <br><br>
+
+    <label for="male">Male:</label>
+    <input type="radio" name="gender" id="male" value="male">
+
+    <label for="female">Female:</label>
+    <input type="radio" name="gender" id="female" value="female">
+
+    <label for="others">Others:</label>
+    <input type="radio" name="gender" id="others" value="others">
+    <br><br>
+
+    <p>Subjects:-</p>
+    <label for="c++">C++</label>
+    <input type="checkbox" name="c++" id="c++" value="c++">
+
+    <br><br>
+
+    <lable for="java">Java</lable>
+    <input type="checkbox" name="java" id="java" value="java">
+
+    <br><br>
+
+    <label for="python">Python</label>
+    <input type="checkbox" name="python" id="python" value="python">
+    
+    <br><br>
+
+    <label for="javascript">Javascript</label>
+    <input type="checkbox" name="javascript" id="javascript" value="javascript">
+
+    <br><br>
+
+    <input type="submit">
+
+</form>
+
+</body>
+</html>

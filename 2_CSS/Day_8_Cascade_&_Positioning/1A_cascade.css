@@ -1,0 +1,26 @@
+/* 
+        priority:-->
+
+        0) important
+        1) Inline CSS
+        2) id
+        3) class
+        4) tag (<h1>,<h2>,<p>)
+        5) ordring (in case of tie)
+            -internal OR external
+
+*/
+
+.classA{
+    background-color: aqua;
+}
+
+#firstID{
+    background-color: bisque;
+}
+
+h1{
+    background-color: pink !important;
+
+    /* "important" will make it first priority */
+}
