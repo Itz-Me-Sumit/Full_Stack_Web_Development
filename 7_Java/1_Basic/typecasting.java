@@ -7,9 +7,9 @@ public class typecasting {
         System.out.println(i);
 
         char c = 'a';
-        int m;
-        m = c;
-        System.out.println(i);
+        
+        int m = c;
+        System.out.println(m);
 
 
         // Explicit Conversion
