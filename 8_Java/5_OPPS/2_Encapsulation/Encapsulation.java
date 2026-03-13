@@ -25,7 +25,7 @@ class BankAccount{
     int due;
     /*
     default int due;  
-         anyone belongin to same package can access , package bole to wo file jisme ham code likhte hai.
+         anyone belongin to same package(same folder me rakhe sare code file) can access , package bole to wo folder jisme sare code file rakhe hue hai
             agar ham agae kuch nahi bhi likhte to default access modifier lag jata hai... esiliye default likhe ki jarurat nahi hai
      */
 
